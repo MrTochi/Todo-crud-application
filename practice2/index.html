@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Fields</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="sectionA">
+      <form action="" class="form" id="form">
+       <div class="formGroup">
+        <label for="story">Enter your story:</label>
+        <input type="text" name="story" id="story" placeholder="Enter your story">
+        <p id="alert" class="alert"></p>
+       </div>
+        <button class="submit" id="submit" type="submit">SUBMIT</button>
+      </form>
+    </div>
+
+    <div class="sectionB" id="sectionB">
+      <div class="varieties" id="varieties">
+
+       <div class="specialNeed">
+        <button class="all" id="all" data-action="all">ALL</button>
+        <button class="completed" id="completed" data-action="completed">COMPLETED</button>
+        <button class="not-completed" id="not-completed" data-action="not-completed">NOT-COMPLETED</button>
+       </div>
+        
+       <div class="conditional">
+        <button class="clear" id="clear" data-action="clear">CLEAR</button>
+      </div>
+
+      </div>
+      <div class="storyBox" id="storyBox">
+        <!-- <div class="checkBox">
+          <i class="fa-regular fa-circle-check"></i>
+          <i class="fa-regular fa-circle"></i>
+        </div>
+        <p id="myStory" class="myStory">This is my first story</p>
+
+        <div class="editDeleteBox">
+          <i class="fa-solid fa-trash"></i>
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.main-container{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2rem;
+ 
+}
+
+.sectionA{
+  width: 100%;
+  height: auto;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.alert{
+  color: red;
+  font-size: 0.8rem;
+}
+.form{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.5rem;
+}
+
+.formGroup{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+ 
+}
+
+input{
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  
+}
+input:focus{
+  border: none;
+  outline: 1.5px solid blue;
+}
+
+.submit{
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+.sectionB{
+  width: 100%;
+  height: auto;
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.varieties{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.specialNeed{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.all,.completed,.not-completed,.clear{
+  width: fit-content;
+  height: auto;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+  background-color: gray;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+}
+.storyBox{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.story-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.5rem;
+  border: 0.5px solid black;
+  padding: 1rem;
+}
+
+.checkBox{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.deleteEditbox{
+  width: fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.emptyBoxText{
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #d7d7d7;
+  width: 100%;
+  display: block;
+}
